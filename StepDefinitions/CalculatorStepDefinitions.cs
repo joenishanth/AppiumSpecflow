@@ -5,8 +5,8 @@ namespace AppiumSpecflow.StepDefinitions
     [Binding]
     public sealed class CalculatorStepDefinitions
     {
-        private MainPage _mainPage;
-        public CalculatorStepDefinitions(MainPage mainPage)
+        private CalculatorMainPage _mainPage;
+        public CalculatorStepDefinitions(CalculatorMainPage mainPage)
         {
             _mainPage = mainPage;
         }

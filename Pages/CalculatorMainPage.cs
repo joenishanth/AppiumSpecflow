@@ -10,9 +10,9 @@ using System.Threading.Tasks;
 
 namespace AppiumSpecflow.Pages
 {
-    public class MainPage : BasePage
+    public class CalculatorMainPage : BasePage
     {
-        public MainPage(DriverProvider driverProvider, ConfigurationProvider configurationProvider) : base(driverProvider, configurationProvider) { }
+        public CalculatorMainPage(DriverProvider driverProvider, ConfigurationProvider configurationProvider) : base(driverProvider, configurationProvider) { }
 
         public IWebElement MainDisplay => Driver.FindElement(MobileBy.Id("com.google.android.calculator:id/display"));
 
